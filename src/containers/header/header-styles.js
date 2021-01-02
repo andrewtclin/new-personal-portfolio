@@ -7,7 +7,6 @@ export const useStyles = makeStyles({
   },
   header__top: { marginBottom: "2px" },
   header__title: {
-    fontFamily: '"Roboto", "Helvetica", "Arial", "sans-serif"',
     fontSize: "1.5rem",
     fontWeight: "400",
     lineHeight: "1.334",
@@ -19,6 +18,7 @@ export const useStyles = makeStyles({
     alignItems: "center",
   },
   header__select: { marginLeft: "10px" },
+  header__optionContainer: { marginBottom: "6px" },
   header__option: {
     fontSize: "18px",
     fontWeight: "500",

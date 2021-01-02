@@ -34,7 +34,7 @@ function Header() {
         </Grid>
         <Grid item xs={4} />
       </Grid>
-      <Grid container spacing={2}>
+      <Grid container spacing={2} className={classes.header__optionContainer}>
         <Grid item xs={12}>
           <Divider />
         </Grid>
