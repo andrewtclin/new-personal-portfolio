@@ -8,7 +8,8 @@ export default function MainFeatured() {
   const classes = useStyles();
 
   return (
-    <Paper elevation={24} className={classes.mainFeatured}>
+    <Paper elevation={5} className={classes.mainFeatured}>
+      <div className={classes.mainFeatured__overlay} />
       <Grid container>
         <Grid item md={12} className={classes.mainFeatured__contentGrid}>
           <div className={classes.mainFeatured__contentContainer}>
@@ -16,7 +17,8 @@ export default function MainFeatured() {
               Full-Stack Web Developer　|　AI Engineer
             </p>
             <p className={classes.mainFeatured__content}>
-              Hi. It's Andrew. <br />
+              Hi. It's Andrew.
+              <br />
               <br />
               I've developed several projects for the government departments,{" "}
               <br />
